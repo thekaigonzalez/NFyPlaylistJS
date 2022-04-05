@@ -9,6 +9,13 @@ module.exports = class {
     constructor(arr) {
         this.priv = arr
     }
+
+    constructor() {
+        this.priv = null;
+    }
+    Dull() {
+        return this.priv === null
+    }
     // get size of playlist.
     getSize() {
         return this.priv.length
