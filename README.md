@@ -18,3 +18,5 @@ console.log(mypl.getCurrentSong())
 test
 123
 ```
+
+Documentation: https://thenfyproject.tk/
